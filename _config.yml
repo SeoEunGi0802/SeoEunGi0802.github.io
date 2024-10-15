@@ -1,0 +1,21 @@
+title: SeoEunGi
+description: Java - Backend Developer
+site_title: 'SeoEunGi'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: SeoEunGi0802
+blog_url: https://xddsr123.tistory.com
+email: lolove08@naver.com
+#keybase_username: abhn
+#twitter_username: abhn_
+#reddit_username: abhn
+
+# absolute or relative
+profile_picture: assets/images/pp.jpg
+
+# Google Analytics ID
+google_analytics: G-263JD358X7
