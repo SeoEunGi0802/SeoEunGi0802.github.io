@@ -4,7 +4,6 @@
     margin-bottom: 15px;
     width: 100%;
     background: #eee;
-    /*height:28px;*/
     height: auto;
     border-radius: 3px;
     -moz-border-radius: 3px;
@@ -28,6 +27,10 @@
     font-size: 20px;
     color: #ffffff;
     background: #6adcfa;
+}
+
+.past {
+    background: gray !important;
 }
 
 .skillbar-title span {

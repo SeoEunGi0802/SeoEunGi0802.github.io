@@ -1,0 +1,42 @@
+.walk-list {
+    position: relative;
+}
+
+.walk-list:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 3px;
+    left: 39px;
+    height: 100%;
+    background-color: #eee;
+}
+
+.walk-item {
+    position: relative;
+    margin-left: 20px;
+}
+
+.walk-item::marker {
+    color: #3498db;
+    font-size: 2rem;
+}
+
+.walk-item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.walk-content {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #707984;
+}
+
+.walk-title {
+    padding-top: 6px;
+    margin-bottom: 10px;
+    color: #2980b9;
+    font-size: 20px;
+    font-weight: bold;
+}

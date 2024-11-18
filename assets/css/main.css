@@ -10,14 +10,10 @@ img {
 }
 
 .head {
-
     color: #fff;
     min-height: 100vh;
-
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -26,7 +22,6 @@ img {
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-
     background: transparent;
 }
 
@@ -109,9 +104,7 @@ img {
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
-
     display: -ms-grid;
-
     display: grid;
     -ms-grid-columns: auto auto auto auto;
     grid-template-columns: auto auto auto auto;
@@ -368,9 +361,8 @@ img {
 }
 
 .profile-pic {
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
+    width: 300px;
+    height: 300px;
     border: solid 2px white;
 }
 
@@ -430,7 +422,7 @@ a {
 }
 
 .head-inner-wrap {
-
+    text-align: center;
 }
 
 .bottom-link {
