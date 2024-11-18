@@ -128,13 +128,13 @@ img {
     margin-top: 30px;
 }
 
-.skills-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 40% 60%;
-    grid-template-columns: 40% 60%;
-    grid-gap: 20px;
-}
+/*.skills-grid {*/
+/*    display: -ms-grid;*/
+/*    display: grid;*/
+/*    -ms-grid-columns: 40% 60%;*/
+/*    grid-template-columns: 40% 60%;*/
+/*    grid-gap: 20px;*/
+/*}*/
 
 .technical-skills {
     width: 90%;
