@@ -8,9 +8,9 @@
 /**
  * Helpers
  */
-.border-tlr-radius { 
+.border-tlr-radius {
 	border-top-left-radius: 2px;
-	border-top-right-radius: 2px; 
+	border-top-right-radius: 2px;
 }
 
 .text-center { text-align: center; }
@@ -22,9 +22,9 @@
 .shadowDepth0 { box-shadow: 0 1px 3px rgba(0,0,0, 0.12); }
 
 .shadowDepth1 {
-   box-shadow: 
+   box-shadow:
   		0 1px 3px rgba(0,0,0, 0.12),
-    	0 1px 2px rgba(0,0,0, 0.24);      
+    	0 1px 2px rgba(0,0,0, 0.24);
 }
 
 
@@ -42,7 +42,7 @@
     padding: 1.6rem;
     padding-top: 0.8rem;
 }
- 
+
 .card__image {
 	min-height: 100px;
     background-color: #eee;
@@ -57,6 +57,11 @@
 }
 
 /* card meta */
+.card__meta {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(120px, 1fr))
+}
+
 .card__meta time {
 	font-size: 1rem;
 	color: #bbb;
@@ -85,7 +90,7 @@
 	margin-bottom: 1.6rem;
 	box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24);
 }
-	  
+
 .blog-link {
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -146,5 +151,5 @@
 
 #project-image:focus,
 #project-image:hover {
-	transform: scale(1.1);
+	transform: scale(105%);
 }

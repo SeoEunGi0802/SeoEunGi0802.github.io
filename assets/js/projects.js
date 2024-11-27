@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(() => {
     render_projects('all');
 })
 
@@ -32,7 +32,33 @@ let render_projects = (slug) => {
                 'done',
                 'web'
             ]
-        }
+        },
+        {
+            image: 'https://opengraph.githubassets.com/1/PlanVerse/pms-back',
+            link: 'https://github.com/PlanVerse/pms-back',
+            title: 'PlanVerse',
+            demo: false,
+            technologies: ['Spring Boot', 'Spring Security', 'PostgreSQL', 'Redis'],
+            description: "PMS - Project Management System",
+            categories: [
+                'progress',
+                'web',
+                'system'
+            ]
+        },
+        {
+            image: 'https://opengraph.githubassets.com/1/PlanVerse/pms-front',
+            link: 'https://github.com/PlanVerse/pms-front',
+            title: 'PlanVerse',
+            demo: false,
+            technologies: ['NextJs', 'React18', 'tailwindcss', 'Shadcn'],
+            description: "PMS - Project Management System",
+            categories: [
+                'progress',
+                'web',
+                'system'
+            ]
+        },
     ]
 
     let projects;
@@ -51,7 +77,7 @@ let project_mapper = project => {
                 ${project.image ?
         `<div class="card__image border-tlr-radius">
                         <a href="${project.link}" target="_blank">
-                            <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
+                            <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius" decoding="async" loading="lazy" />
                         </a>
                     </div>`
         : ''}
@@ -66,7 +92,7 @@ let project_mapper = project => {
 
                     <div class="card__meta">
                         ${project.technologies.map(tech =>
-        `<span class="project-technology paragraph-text-normal">${tech}</span>`
+        `<div class="project-technology paragraph-text-normal">${tech}</div>`
     ).join('')}
                     </div>
                 </div>
