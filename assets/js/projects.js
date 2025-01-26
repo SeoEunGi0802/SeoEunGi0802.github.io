@@ -36,9 +36,9 @@ let render_projects = (slug) => {
         {
             image: 'https://opengraph.githubassets.com/1/PlanVerse/pms-back',
             link: 'https://github.com/PlanVerse/pms-back',
-            title: 'PlanVerse',
+            title: 'PlanVerse server',
             demo: false,
-            technologies: ['Spring Boot', 'Spring Security', 'PostgreSQL', 'Redis'],
+            technologies: ['Kotlin', 'Spring Boot', 'Spring Security', 'PostgreSQL', 'Redis'],
             description: "PMS - Project Management System",
             categories: [
                 'progress',
@@ -49,7 +49,7 @@ let render_projects = (slug) => {
         {
             image: 'https://opengraph.githubassets.com/1/PlanVerse/pms-front',
             link: 'https://github.com/PlanVerse/pms-front',
-            title: 'PlanVerse',
+            title: 'PlanVerse ui',
             demo: false,
             technologies: ['NextJs', 'React18', 'tailwindcss', 'Shadcn'],
             description: "PMS - Project Management System",
